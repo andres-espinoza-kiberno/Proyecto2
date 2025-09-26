@@ -6,13 +6,15 @@ import { App } from './app';
 import { Nav } from './nav/nav';
 import { ContainerComponent } from './Container/container.component';
 import { Header } from './header/header';
+import { Notification } from './notification/notification';
 
 @NgModule({
   declarations: [
     App,
     ContainerComponent,
     Nav,
-    Header
+    Header,
+    Notification
   ],
   imports: [
     BrowserModule,
