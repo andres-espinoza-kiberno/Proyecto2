@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './header.css'
 })
 export class Header {
+slogan: string ='iquibusdam aspernatur illum quis!'
+source: string="./shop.jpg"
 
+getslogan(){
+  return 'This is a new slogan for this web application'
+}
 }
