@@ -8,7 +8,8 @@ import { ContainerComponent } from './Container/container.component';
 import { Header } from './header/header';
 import { Notification } from './notification/notification';
 import { Search } from './search/search';
-
+import { FormsModule } from '@angular/forms';
+import { Products } from './products/products';
 @NgModule({
   declarations: [
     App,
@@ -16,11 +17,13 @@ import { Search } from './search/search';
     Nav,
     Header,
     Notification,
-    Search
+    Search,
+    Products
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     provideBrowserGlobalErrorListeners()
